@@ -88,7 +88,7 @@ export default function ProductsPage() {
       {/* Grid */}
       <Grid container spacing={3}>
         {products.map((prod) => (
-          <Grid item xs={12} sm={6} md={4} lg={3} key={prod.id}>
+          <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }} key={prod.id}>
             <ProductCard
               product={prod}
               onEdit={handleEdit}
