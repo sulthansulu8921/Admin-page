@@ -16,6 +16,7 @@ import {
   TextField,
 } from "@mui/material";
 
+// Triggering new Vercel deployment with fixed Grid usage
 export default function CategoriesPage() {
   const [categories, setCategories] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
